@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Ravindra.in</title>
+        <meta charset="utc-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    </head>
+    <body style="text-align: center;">
+        <h1 style="color:red;">Time dispaly continue</h1>
+        <p id="kalyan"></p>
+    
+        <script>
+            function getTime(){
+
+var today =new Date();
+var h=today.getHours();
+var m =today.getMinutes();
+var s =today.getSeconds();
+document.getElementById('kalyan').innerHTML=h +":"+ m +":"+ s;
+       setInterval("getTime()",1000);
+            }
+getTime()
+
+        </script>
+
+    </body>
+</html>

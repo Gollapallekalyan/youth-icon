@@ -1,0 +1,92 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        hr {
+            width: 250px;
+            border: 2px solid red;
+            text-align: center;
+        }
+
+        img {
+            height: 190px;
+            width: 190px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+           
+        }
+
+        .box {
+            border: 2px solid red;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 30px;
+            background-color: white;
+            border: none;
+            box-shadow: 0px 0px 25px #9e939e;
+            max-width: 300px;
+            text-align: center;
+           
+        }
+
+        body {
+            background-color: whitesmoke;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        h3 {
+            color: red;
+        }
+
+        .box:hover {
+            box-shadow: none;
+            border: 1px solid black;
+        }
+
+        @media screen and (max-width: 768px) {
+            .box {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>The eletricity of meter</h2>
+    <hr>
+   <p>Electricity is the set of physical phenomena associated with the presence and motion of matter that has a property of electric. Electricity is related to magnetism,<br> both being part of the phenomenon of electromagnetism, as described by Maxwell's equations.</p>
+    <div class="main">
+        <div class="box">
+            <img src="https://www.hallelectrical.co.nz/wp-content/uploads/2022/08/switch_board-1.webp" alt="">
+            <h3>Wiring accessories image</h3>
+        </div>
+        <div class="box">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbBi1Gia8Gux3qtKSyTwDT5EnAbw3NKNrIm6cHeVcC-RUi2NQ5RS4BplIVixhk0LdBZIM&usqp=CAU" alt="">
+            <h3>Wiring accessories image</h3>
+        </div>
+        <div class="box">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9VSti1zs_-QOjlNHAAYnW6Bpo27XkqH5ikvPFBDXkQ5UtqULxe8WBUOJunioFFTh4Zco&usqp=CAU" alt="">
+            <h3>Wiring accessories image</h3>
+        </div>
+    </div>
+</body>
+
+</html>
